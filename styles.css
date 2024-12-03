@@ -1,49 +1,43 @@
-/* Reset default margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: Arial, sans-serif;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    background-image: url('unnamed.jpg'); /* Change this to your background image URL */
+    background-image: url('unnamed.jpg'); 
     background-size: cover;
     background-position: center;
     color: white;
 }
 
-/* Container styling */
 .container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for better readability */
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
     width: 90%;
 }
 
-/* Main heading style */
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* Paragraph style */
 .description {
     font-size: 1.2rem;
     line-height: 1.6;
 }
 
-/* Link styling */
 a {
-    color: #3073ac; /* Tomato color */
+    color: #3073ac;
     text-decoration: none;
 }
 
